@@ -19,25 +19,25 @@ ubuntu/debian：
 
 获取源代码
 -----
-`git clone -b manyuser https://github.com/breakwa11/shadowsocks.git`
+`git clone -b manyuser https://github.com/shadowsocksr/shadowsocksr.git`
 
-执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。
+执行完毕后此目录会新建一个shadowsocksr目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocksr/shadowsocks)。
 
-根目录即 ./shadowsocks
+根目录即 ./shadowsocksr
 
-子目录即 ./shadowsocks/shadowsocks
+子目录即 ./shadowsocksr/shadowsocks
 
 服务端配置
 -----
-进入根目录初始化配置(假设根目录在`~/shadowsocks`，如果不是，命令需要适当调整)：
+进入根目录初始化配置(假设根目录在`~/shadowsocksr`，如果不是，命令需要适当调整)：
 ```
-cd ~/shadowsocks
+cd ~/shadowsocksr
 bash initcfg.sh
 ```
 
 以下步骤要进入子目录：
 ```
-cd ~/shadowsocks/shadowsocks
+cd ~/shadowsocksr/shadowsocks
 ```
 
 ####快速运行####
@@ -63,7 +63,7 @@ tail -f /var/log/shadowsocks.log
 
 ####使用配置文件运行####
 
-如果你的ss目录是`~/shadowsocks`，进入这里  
+如果你的ss目录是`~/shadowsocksr`，进入这里  
 修改`user-config.json`中的`server_port`，`password`等字段，具体可参见：  
 https://github.com/breakwa11/shadowsocks-rss/wiki/config.json
 
@@ -120,12 +120,12 @@ OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图�
 
 
 [Python]:            https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client
-[Linux python]:      https://github.com/breakwa11/shadowsocks
+[Linux python]:      https://github.com/shadowsocksr/shadowsocksr
 [Linux Qt]:          https://github.com/librehat/shadowsocks-qt5
-[Android]:           https://github.com/shadowsocks/shadowsocks-android
+[Android]:           https://github.com/shadowsocksr/shadowsocksr-android
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
 [OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
 [OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
-[Windows]:           https://github.com/breakwa11/shadowsocks-csharp
+[Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp
 [libsodium]:         https://github.com/breakwa11/shadowsocks-rss/wiki/libsodium
