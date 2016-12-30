@@ -15,23 +15,23 @@ apt-get install git
 ```
 
 ### 获取源代码 ###
-`git clone -b manyuser https://github.com/breakwa11/shadowsocks.git`
+`git clone -b manyuser https://github.com/shadowsocksr/shadowsocksr.git`
 
 执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版），子目录中的是单用户版。
 
-根目录即 ./shadowsocks
+根目录即 ./shadowsocksr
 
-子目录即 ./shadowsocks/shadowsocks 
+子目录即 ./shadowsocksr/shadowsocks 
 
 
 ### 服务端配置 ###
-进入根目录初始化配置(假设根目录在`~/shadowsocks`，如果不是，命令需要适当调整)：
+进入根目录初始化配置(假设根目录在`~/shadowsocksr`，如果不是，命令需要适当调整)：
 ```
-cd ~/shadowsocks
+cd ~/shadowsocksr
 bash initcfg.sh
 ```
 
-shadowsocks目录内，对userapiconfig.py里以下内容进行相应修改： 
+shadowsocksr目录内，对userapiconfig.py里以下内容进行相应修改： 
 ```
 API_INTERFACE = 'mudbjson' //修改接口类型
 ```
@@ -62,9 +62,9 @@ API_INTERFACE = 'mudbjson' //修改接口类型
 ### 更新源代码 ###
 如果代码有更新可用本命令更新代码
 
-进入shadowsocks目录 
+进入shadowsocksr目录 
 
-`cd shadowsocks` 
+`cd shadowsocksr` 
 
 执行 
 
