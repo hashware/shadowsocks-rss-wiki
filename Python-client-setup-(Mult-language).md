@@ -33,11 +33,11 @@ python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
 
 #说明：-p 端口 -k 密码  -m 加密方式 -o 混淆插件
 ```
-如果要后台运行：
+如果要后台运行(只有unix系统才可以使用，windows无法后台运行)：
 
     python local.py -s server_ip -p 443 -k password -m aes-256-cfb -d start
 
-如果要停止/重启：
+如果要停止/重启(同样的windows无法使用)：
 
     python local.py -d stop/restart
 
@@ -82,11 +82,11 @@ python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
 
     python local.py -c /etc/shadowsocks.json
 
-后台运行：
+后台运行(只有unix系统才可以使用，windows无法后台运行)：
 
     python local.py -c /etc/shadowsocks.json -d start
 
-如果要停止/重启：
+如果要停止/重启(同样的windows无法使用)：
 
     python local.py -d stop/restart
 
@@ -141,7 +141,7 @@ python local.py -s <server_ip> \
 Replace `<variable>` with appropriate values.
 
 If require daemonization, append `-d start` on the above command. To stop or restart, execute
-`python local.py -d stop # or restart`
+`python local.py -d stop # or restart`. Note that `-d` only available on `unix` like system, not support on windows.
 
 Check logs:
 ```
@@ -180,7 +180,7 @@ python local.py -c /etc/shadowsocks.json
 ```
 
 You may combine with `-d start/restart/stop` options to initialize/restart/stop
-the daemon.
+the daemon. Note that `-d` only available on `unix` like system, not support on windows.
 
 Proxy setup
 --
