@@ -15,6 +15,7 @@ udpport参数及uot目前仅C#客户端支持
 密码： aaabbb
 加密： aes-128-cfb
 协议： auth_aes128_md5
+协议参数： （空）
 混淆： tls1.2_ticket_auth
 混淆参数： breakwa11.moe
 备注： 测试中文
