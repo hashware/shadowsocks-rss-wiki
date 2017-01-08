@@ -50,8 +50,8 @@ python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
 
 ####通过配置文件运行####
 
-建立配置文件 `vi /etc/shadowsocks.json`
-可以参考项目中的/shadowsocks/config.json来写
+建立配置文件 `vi /etc/shadowsocks.json`,
+[可以参考/shadowsocks/config.json来写]
 
 写入以下内容：
 ```javascript
