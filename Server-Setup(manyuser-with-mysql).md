@@ -37,7 +37,7 @@ pip install cymysql
 cd ~/shadowsocksr
 bash initcfg.sh
 ```
-shadowsocksr目录内， 复制一份配置` cp config.py.sample config.py` ，然后对`config.py`里以下内容进行相应修改： 
+shadowsocksr目录内，对userapiconfig.py里以下内容进行相应修改： 
 ```
 API_INTERFACE = 'sspanelv2' //修改接口类型
 ```
