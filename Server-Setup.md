@@ -88,11 +88,11 @@ tail -f /var/log/shadowsocks.log
 ### 更新源代码 ###
 如果代码有更新可用本命令更新代码
 
-进入shadowsocks目录  
-`cd shadowsocks`  
+进入shadowsocksr目录  
+`cd shadowsocksr`  
 执行  
 `git pull`  
-成功后重启ss服务
+成功后重启ssr服务
 
 ### 自启动 ###
 [System startup script](https://github.com/breakwa11/shadowsocks-rss/wiki/System-startup-script)  
