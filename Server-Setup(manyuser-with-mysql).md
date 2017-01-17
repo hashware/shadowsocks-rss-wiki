@@ -65,8 +65,8 @@ API_INTERFACE = 'sspanelv2' //修改接口类型
 
 然后编辑user-config.json：
 ```
-"method":"aes-256-cfb",                   //修改成您要的加密方式的名称
-"protocol": "auth_sha1_v4",       //修改成您要的协议插件名称
+"method":"aes-256-cfb",                  //修改成您要的加密方式的名称
+"protocol": "auth_sha1_v4",              //修改成您要的协议插件名称
 "obfs": "tls1.2_ticket_auth_compatible", //修改成您要的混淆插件名称
 ```
 
