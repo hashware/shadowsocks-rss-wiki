@@ -16,9 +16,9 @@ apt-get install python-pip
 apt-get install git
 ```
 
-### 安装依赖 ###
+### 安装依赖(cymysql) ###
 ```
-pip install -r requirements.txt
+pip install cymysql
 ```
 
 ### 获取源代码 ###
@@ -115,7 +115,7 @@ python server.py
 
 `git pull`
 
-成功后重启ss服务
+成功后重启ssr服务
 
 ### 其它异常 ###
 如果你的服务端python版本在2.6以下，那么必须更新python到2.6.x或2.7.x版本
