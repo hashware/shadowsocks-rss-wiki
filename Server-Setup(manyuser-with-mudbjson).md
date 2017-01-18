@@ -31,9 +31,9 @@ cd ~/shadowsocksr
 bash initcfg.sh
 ```
 
-shadowsocksr目录内，对`config.py`里以下内容进行相应修改： 
+shadowsocksr目录内，对`userapiconfig.py`里以下内容进行相应修改： 
 ```
-API_INTERFACE = 'mudbjson' //修改接口类型
+API_INTERFACE = 'mudbjson' #修改接口类型
 ```
 
 接着，通过使用脚本`mujson_mgr.py`添加端口及相应的加密、协议、混淆等配置，具体方法通过执行以下命令查看该脚本的说明及提示：  
