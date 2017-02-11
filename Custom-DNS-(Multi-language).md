@@ -1,5 +1,5 @@
 # 方案一
-在配置文件所在目录下（与config.json同目录），新建dns.conf文件，内容格式如下：
+在配置文件所在目录下（即shadowsocksr目录下，存在config.json和init.sh文件），新建dns.conf文件，内容格式如下：
 ```
 8.8.8.8 53
 8.8.4.4 53
