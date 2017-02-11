@@ -43,19 +43,19 @@ API_INTERFACE = 'mudbjson' #修改接口类型
 
 后台运行（无log，ssh窗口关闭后也继续运行） 
 
-`sh ./run.sh`
+`./run.sh`
 
 后台运行（输出log，ssh窗口关闭后也继续运行） 
 
-`sh ./logrun.sh`
+`./logrun.sh`
 
 后台运行时查看运行情况 
 
-`sh ./tail.sh`
+`./tail.sh`
 
 停止运行 
 
-`sh ./stop.sh`
+`./stop.sh`
 
 注：通过脚本运行默认日志会保存在根目录的ssserver.log，可手动查看。
 
