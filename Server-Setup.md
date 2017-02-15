@@ -100,9 +100,11 @@ tail -f /var/log/shadowsocks.log
 客户端
 ------
 注：以下客户端中有：
-windows客户端和python版客户端，ShadowsocksX-NG（macOS客户端之一）
-Android客户端，Shadowrocket（iOS客户端之一，iTunes售价$3美元/￥18人民币）
-可以使用SSR特性，其他原版客户端只能以兼容的方式连接SSR服务器（SSR可兼容SS客户端）。
+windows客户端和python版客户端，ShadowsocksX-NG（macOS客户端之一）， 
+Android客户端，Shadowrocket（iOS客户端之一，iTunes售价$3美元/￥18人民币）， 
+可以使用SSR特性，
+ 
+其他原版客户端只能以兼容的方式连接SSR服务器（SSR可兼容SS客户端）。
 
 * [Windows] / [OS X] / [ShadowsocksX-NG]
 * [Linux python] / [Linux Qt]
