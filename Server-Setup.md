@@ -99,11 +99,14 @@ tail -f /var/log/shadowsocks.log
 
 客户端
 ------
-注：以下客户端只有windows客户端和python版客户端可以使用SSR特性，其他原版客户端只能以兼容的方式连接SSR服务器（SSR可兼容SS客户端）。
+注：以下客户端中有：
+windows客户端和python版客户端，ShadowsocksX-NG（macOS客户端之一）
+Android客户端，Shadowrocket（iOS客户端之一，iTunes售价$3美元/￥18人民币）
+可以使用SSR特性，其他原版客户端只能以兼容的方式连接SSR服务器（SSR可兼容SS客户端）。
 
-* [Windows] / [OS X]
+* [Windows] / [OS X] / [ShadowsocksX-NG]
 * [Linux python] / [Linux Qt]
-* [Android] / [iOS]
+* [Android] / [iOS] / [Shadowrocket]
 * [OpenWRT]
 
 OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图形客户端。具体使用参见它们的使用说明。
@@ -129,3 +132,5 @@ OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图�
 [OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
 [Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp
 [libsodium]:         https://github.com/breakwa11/shadowsocks-rss/wiki/libsodium
+[ShadowsocksX-NG]:   https://github.com/yichengchen/ShadowsocksX-R
+[Shadowrocket]:      https://itunes.apple.com/us/app/shadowrocket/id932747118
